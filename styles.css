@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+  p {
+font-family: Arial, Helvetica, sans-serif;
+color:cadetblue ;
+  }
+
+  .encabezado{
+    width: 600px;
+  }
+
+  .cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #cards-conteiner{
+    background-color: aquamarine;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+   }

@@ -3,43 +3,44 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Sitio homework modulo 3</title>
+      <title>Sitio homework modulo 3 y 4</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
     <header>
-        <h1>Venta de autos</h1>
-        <p>Este sitio está especializado en venta de usados</p>
+        <h1>Recetas</h1>
+        <p>Este sitio está especializado en recetas faciles</p>
         <span>HOME</span>
         <span>SOBRE NOSOTROS</span>
-        <span>LOS MAS VENDIDOS</span>
+        <span>LAS CLASICAS</span>
     </header>
     <hr />
 
     <main>
         <section>
-            <h2>Lista de autos</h2>
-            <img src="./images.jpg"/>
+            <h2>Lista de recetas</h2>
+            <img src="./las-mejores-recetas-con-pocos-ingredientes.jpg" class="encabezado">
             <article>
-                <h3>Autos usados con menos de 5 años</h3>
-                <p>Modelos nacionales e importados</p>
-                <div>
+                <div id="cards-conteiner">
+
+                <div class="cards">
+                <h3>Recetas para el frio</h3>
                     <ul>
-                        <li>Este es un auto</li>
-                        <li>Este es otro auto</li>
-                        <li>Este es otro auto más</li>
+                        <li>Guiso de lentejas</li>
+                        <li>Estofado</li>
+                        <li>Goulash</li>
                     </ul>
                 </div>
-            </article>
-        <hr />
-            <article>
-                <h3>Autos usados de 5 a 15 años</h3>
-                <p>Modelos solo nacionales</p>
-                <div>
-                    <span>Audi</span>
-                    <span>Chevrolet</span>
-                    <span>Volkswagen</span>
+        
+                <div class="cards">
+                <h3>Recetas para el calor</h3>
+                    <ul>
+                        <li>Ensalada cesar</li>
+                        <li>Tarta de jamon y queso</li>
+                        <li>Arroyaditos de atun</li>
+                    </ul>
                 </div>
-            </article>
+
         <hr />
 
         </section>
@@ -47,7 +48,7 @@
     </main>
 
     <footer>
-        <p>Para más información, deje sus datos y nos pondremos en contacto con usted.</p>
+        <p>Para más información, deja tus datos y nos pondremos en contacto.</p>
         <a href="./form.html">Formulario de contacto</a>
     </footer>
 
